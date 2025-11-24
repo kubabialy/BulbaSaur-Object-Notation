@@ -4,6 +4,8 @@ This is a toy project designed to demonstrate how **Abstract Syntax Trees (AST)*
 
 The project explores the fundamentals of compiler frontend design—specifically **lexical analysis (tokenization)** and **parsing**—across multiple programming languages.
 
+[READ MORE](https://theliverr.substack.com/p/parsing-the-grass-type)
+
 ## Project Structure
 
 The repository contains three independent implementations of the BSON parser:
