@@ -64,8 +64,4 @@ private:
     // Helper methods
     BSONValue parseValueFromTokens(const std::vector<Token>& tokens, size_t& i);
     void validateKey(const std::string& key);
-    std::string trim(const std::string& str);
-    bool startsWith(const std::string& str, const std::string& prefix);
-    bool endsWith(const std::string& str, const std::string& suffix);
-    BSONValue parseValue(const std::string& valStr); // Kept for compatibility if needed
 };

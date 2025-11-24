@@ -178,12 +178,6 @@ void BSONParser::validateKey(const std::string& key) {
     if (key == "Charizard") throw std::runtime_error("It burns the bulb");
 }
 
-// Helper methods not needed anymore in Parser but kept if interface requires or removed
-std::string BSONParser::trim(const std::string& str) { return ""; }
-bool BSONParser::startsWith(const std::string& str, const std::string& prefix) { return false; }
-bool BSONParser::endsWith(const std::string& str, const std::string& suffix) { return false; }
-BSONValue BSONParser::parseValue(const std::string& valStr) { return BSONValue(); }
-
 
 // Implementation of print methods
 
