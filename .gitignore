@@ -1,0 +1,30 @@
+# General
+.DS_Store
+*.log
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Go
+/go-bson/bin/
+/go-bson/vendor/
+*.test
+*.out
+
+# C++
+/cpp-bson/bson_parser
+*.o
+*.obj
+*.d
+*.exe
+
+# TypeScript / Node.js
+/ts-bson/node_modules/
+/ts-bson/dist/
+/ts-bson/build/
+/ts-bson/coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
