@@ -46,3 +46,9 @@ cd cpp-bson
 g++ -o test_suite main.cpp Lexer.cpp BSONParser.cpp
 ./test_suite
 ```
+
+### Rust
+```bash
+cd rs-bson
+cargo run
+```
