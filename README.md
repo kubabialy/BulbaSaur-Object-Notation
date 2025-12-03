@@ -13,6 +13,7 @@ The repository contains three independent implementations of the BSON parser:
 *   **TypeScript** (`ts-bson/`): A Node.js implementation using Jest for testing.
 *   **Go** (`go-bson/`): A Go implementation using the standard `testing` package.
 *   **C++** (`cpp-bson/`): A C++ implementation with a custom test runner.
+*   **Rust** (`rs-bson/`): A Rust implementation with tests.
 
 ## The BSON Format
 
@@ -50,5 +51,6 @@ g++ -o test_suite main.cpp Lexer.cpp BSONParser.cpp
 ### Rust
 ```bash
 cd rs-bson
-cargo run
+cargo test # or
+cargo run --release # -- [/path/to/your/file.bson]
 ```
