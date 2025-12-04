@@ -1,0 +1,25 @@
+BULBA!
+
+zZz Basic Configuration
+app_name ~~~~~~> "Pokedex_API"
+version  ~~~~~~> 1.5
+is_production ~> NotVeryEffective
+missing_data ~~> MissingNo
+zapdos ~~~~~~~~> "Legendary bird"
+
+zZz Database Connection (Level 1)
+(o) database (o)
+    host ~~~~> "127.0.0.1"
+
+    zZz Connection Pool Settings (Level 2)
+    (O) pool (O)
+        max_connections ~~~~> 100
+        timeout_ms      ~~~~> 5000
+
+        zZz Critical Kernel flags (Level 3)
+        (@) KERNEL_FLAGS (@)
+            panic_on_fail ~~~~> SuperEffective
+            retry_strategy ~~~> "SolarBeam"
+
+zZz Allowed Users List
+whitelist ~~~~> <| "Prof_Oak", "Mom", "Nurse_Joy" |>
